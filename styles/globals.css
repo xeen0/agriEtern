@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+::-webkit-input-placeholder { /* Edge */
+  transform-origin: 1px;
+}

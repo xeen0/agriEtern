@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    color:grey
+}
+.context {
+    display: flex;
+}
+.content{
+    padding:3px;
+}
+.content:hover{
+    color:green;
+    cursor:pointer;
+}
