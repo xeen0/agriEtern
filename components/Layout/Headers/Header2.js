@@ -1,4 +1,4 @@
-import Header2Styles from '../../styles/Header2.module.css'
+import Header2Styles from '../../../styles/Header2.module.css'
 import {FiSearch} from 'react-icons/fi'
 const Header2 = () => {
   return (

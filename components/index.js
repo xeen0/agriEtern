@@ -1,3 +1,17 @@
-export {Header1 , Navbar,Header2} from './Headers'
-export {default as Carousel } from './Carousel'
-export {default as Dummy} from './Dummy.js'
+export {
+    Header1 ,
+    Navbar,
+    Header2,
+    Carousel,
+    SellerProducts,
+    Footer1,
+    Footer2,
+    Footer3,
+    FeaturedProduct,
+    Review
+} from './Layout'
+export {
+    ProductCard,
+    FeatureCard
+} from './shared'
+

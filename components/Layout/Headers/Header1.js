@@ -1,4 +1,4 @@
-import HeaderStyles from "../../styles/Header1.module.css";
+import HeaderStyles from "../../../styles/Header1.module.css";
 import  {BsFillPersonFill } from 'react-icons/bs'
 const Header1 = () => {
   return (

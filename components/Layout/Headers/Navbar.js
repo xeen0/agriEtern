@@ -17,8 +17,8 @@ const NavBar = () => {
         window.addEventListener('scroll',handleScroll)
       })
   return (
-    <div>
-      <Navbar expand="sm" fixed={scrolled?"top":"sticky"} className="nav-bar">
+    <div >
+      <Navbar expand="sm" fixed={scrolled?"top":"sticky"} className="nav-bar" style={{backgroundColor:"white"}}>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
           <Nav >
