@@ -1,17 +1,19 @@
 .container {
-  height: 20vh;
+  height: 12vw;
   background: #f9f9f9;
   align-items: center;
 }
 .textBox {
   border-style: solid;
   overflow: hidden;
-  padding:10px;
+  padding:.5vw;
   border-radius: 100px;
   box-decoration-break: none;
   background-position: right;
   border-color: #e5e5e5;
   margin: 2% 0% 2% 2%;
+
+  width:100%;
 }
 
 
@@ -29,6 +31,9 @@
 
 @media screen and (min-width:768px){
   .container{
-    height:10vh
+    height:5vw
+  }
+  .textBox{
+    width: auto;
   }
 }

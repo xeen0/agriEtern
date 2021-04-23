@@ -14,4 +14,5 @@ export {
     ProductCard,
     FeatureCard
 } from './shared'
+export {default as Layout } from './MetaLayout'
 

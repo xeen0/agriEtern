@@ -1,6 +1,6 @@
 import Footer2Styles from "../../../styles/Footer2.module.css";
 import { BsFillHouseDoorFill } from "react-icons/bs";
-import {FaFacebook} from 'react-icons/fa'
+import { FaFacebook } from "react-icons/fa";
 const Footer2 = () => {
   return (
     <div className={Footer2Styles.container}>
@@ -15,11 +15,10 @@ const Footer2 = () => {
         </div>
         <div>
           <h5> Information</h5>
-          <li> New Products</li>
-          <li> New Products</li>
-          <li> New Products</li>
-          <li> New Products</li>
-          <li> New Products</li>
+          <div className={Footer2Styles.list}> New Products</div>
+          <div className={Footer2Styles.list}> New Products</div>
+          <div className={Footer2Styles.list}> New Products</div>
+          <div className={Footer2Styles.list}> New Products</div>
         </div>
         <div>
           <h5> Instagram</h5>
@@ -63,12 +62,21 @@ const Footer2 = () => {
       <div>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <h4>Follow US</h4>
-          <FaFacebook size="2em"/>
-          <FaFacebook size="2em"/>
-          <FaFacebook size="2em"/>
-          <FaFacebook size="2em"/>
-          <FaFacebook size="2em"/>
-
+          <div style={{ padding: "0 10px" }}>
+            <FaFacebook size="2em" />
+          </div>
+          <div style={{ padding: "0 10px" }}>
+            <FaFacebook size="2em" />
+          </div>
+          <div style={{ padding: "0 10px" }}>
+            <FaFacebook size="2em" />
+          </div>
+          <div style={{ padding: "0 10px" }}>
+            <FaFacebook size="2em" />
+          </div>
+          <div style={{ padding: "0 10px" }}>
+            <FaFacebook size="2em" />
+          </div>
         </div>
       </div>
     </div>

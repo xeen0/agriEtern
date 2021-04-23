@@ -5,25 +5,26 @@
 }
 .section1{
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr ;
 
 }
-.container li{
+.container .list{
     list-style: none;
     color:#C2C2C2;
     padding:8px;
     font-size:14px;
     width:auto;
+    max-width: 15ch;
     
   }
-  .container li:hover{
+  .container .list:hover{
       color:green;
       cursor: pointer;
   }
   .cotainer hr{
       color:white
   }
-  .container li::before{
+  .container .list::before{
     content: "\2022"; 
     color: green; 
     font-weight: bold; 
@@ -34,5 +35,16 @@
   .section3{
       display:grid;
       grid-template-columns:1fr 1fr 1fr;
+      width:18em
+  }
 
+  @media screen and (min-width:1024px){
+    .section1{
+        grid-template-columns:1fr 1fr 1fr 1fr
+    }
+  }
+  @media screen and (min-width:512px){
+    .section1{
+        grid-template-columns:1fr 1fr
+    }
   }
